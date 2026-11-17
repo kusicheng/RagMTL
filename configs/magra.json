@@ -1,0 +1,1 @@
+{"strategy":"magra","top_k":10,"candidate_k":50,"initial_k":10,"title_weight":2.0,"context_bytes":12000,"coverage_stop":0.8,"min_gain":0.001,"diversity_weight":0.15,"redundancy_weight":0.35,"bridge_terms":6}

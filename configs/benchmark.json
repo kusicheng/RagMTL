@@ -1,0 +1,16 @@
+{
+  "version": "magra-v1",
+  "sources": ["scifact", "nfcorpus", "fiqa", "arguana", "hotpotqa"],
+  "heldout_sources": ["arguana"],
+  "hotpot_settings": ["provided_context", "full_corpus"],
+  "split_seed": "magra-v1",
+  "near_duplicate_token_jaccard": 0.85,
+  "preserve_complete_corpus": true,
+  "minimum_domains_for_generality": 5,
+  "max_physical_bytes": 2000000000000,
+  "max_host_ram_bytes": 32000000000,
+  "gpu_required": false,
+  "generation_model": "minimax/minimax-m3.1-flash",
+  "tracks": ["natural", "synthetic", "frozen_web", "live_web"],
+  "contamination": "Public benchmark text and answers may occur in model pretraining; unknown exposure limits causal and generality claims."
+}

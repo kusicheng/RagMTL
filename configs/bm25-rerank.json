@@ -1,0 +1,1 @@
+{"strategy":"bm25","top_k":10,"candidate_k":50,"title_weight":2.0,"context_bytes":12000,"use_reranker":true,"evidence_selection":"query_focused"}

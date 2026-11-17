@@ -1,0 +1,12 @@
+services:
+  magra:
+    build: .
+    mem_limit: 30000000000
+    memswap_limit: 30000000000
+    cpus: 4
+    read_only: true
+    volumes:
+      - ./data:/data
+    environment:
+      OPENROUTER_API_KEY: ${OPENROUTER_API_KEY:-}
+      TMPDIR: /data/tmp

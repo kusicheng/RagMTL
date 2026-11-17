@@ -1,0 +1,9 @@
+.venv
+data
+artifacts
+cc_mnt
+ARCHIVE
+.git
+__pycache__
+*.egg-info
+.env
